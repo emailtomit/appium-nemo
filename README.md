@@ -1,5 +1,8 @@
 # appium-nemo
 
+This repository uses [nemo](https://github.com/paypal/nemo) and plugins; [nemo-appium](https://github.com/paypal/nemo-appium) 
+and [nemo-wd-bridge](https://github.com/paypal/nemo-wd-bridge) to start an appium server, and automate an iOS application.
+
 ## Pre-requisites
 
 You should have `appium` globally installed, and be aware of the path to that executable
