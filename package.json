@@ -1,0 +1,17 @@
+{
+  "name": "appium-nemo",
+  "version": "1.0.0",
+  "description": "nemo for appium",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nemo": "^2",
+    "nemo-appium": "~0.0.2",
+    "nemo-view": "^2",
+    "nemo-wd-bridge": "0.0.1"
+  }
+}

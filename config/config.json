@@ -1,0 +1,11 @@
+{
+  "driver": {
+//    "jar": "/Users/medelman/bin/selenium-server-standalone-2.47.1.jar",
+//    "browser": "firefox",
+//    "server": "localhost",
+//    "local": true
+  },
+  "data": {
+    "factor": "desktop"
+  }
+}

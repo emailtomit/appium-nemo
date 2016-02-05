@@ -1,0 +1,28 @@
+{
+  "driver": {
+    "builders": {
+      "withCapabilities": [{
+        "browserName": "",
+        "appium-version": "1.0",
+        "platformName": "iOS",
+        "platformVersion": "9.2",
+        "deviceName": "iPhone 6",
+        "app": "env:IOS_APP_PATH"
+      }],
+      "usingServer": ["http://localhost:4723/wd/hub"]
+    }
+  },
+  "plugins": {
+    "wdb": {
+      "module": "nemo-wd-bridge"
+    },
+    "appium": {
+      "module": "nemo-appium",
+      "priority": 1,
+      "arguments": ["env:APPIUM_PATH"]
+    }
+  },
+  "data": {
+    "factor": "mobile"
+  }
+}
