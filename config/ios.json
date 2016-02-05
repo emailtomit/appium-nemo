@@ -10,7 +10,8 @@
         "app": "env:IOS_APP_PATH"
       }],
       "usingServer": ["http://localhost:4723/wd/hub"]
-    }
+    },
+    "local": false
   },
   "plugins": {
     "wdb": {

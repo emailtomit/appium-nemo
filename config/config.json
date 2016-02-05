@@ -1,9 +1,14 @@
 {
   "driver": {
-//    "jar": "/Users/medelman/bin/selenium-server-standalone-2.47.1.jar",
+//    "jar": "/Users/medelman/bin/selenium-server-standalone-2.48.2.jar",
 //    "browser": "firefox",
 //    "server": "localhost",
 //    "local": true
+  },
+  "plugins": {
+    "wdb": {
+      "module": "nemo-wd-bridge"
+    }
   },
   "data": {
     "factor": "desktop"
