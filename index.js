@@ -47,12 +47,10 @@ function startmeup() {
                 console.log('elt', elt);
                 return nemo.driver.sleep(2000);
             }).then(function () {
-                nemo.appium && nemo.appium.process && nemo.appium.process.kill && nemo.appium.process.kill();
-                nemo.driver.quit();
+                nemo.driver.quit().then(nemo.appium.kill);
             }, function (err) {
                 console.error(err);
-                nemo.appium && nemo.appium.process && nemo.appium.process.kill && nemo.appium.process.kill();
-                nemo.driver.quit();
+                nemo.driver.quit().then(nemo.appium.kill);
             });
         }
     });
