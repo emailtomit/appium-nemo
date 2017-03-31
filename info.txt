@@ -1,0 +1,6 @@
+e.g. DEBUG=nemo-appium* NODE_ENV=ios IOS_APP_PATH="apps/TestApp/build/release-iphonesimulator/TestApp.app" APPIUM_PATH="/Users/mitupatel/.nvm/versions/node/v4.2.2/bin/appium" node index.js
+501  appium --version
+  502  npm install -g appium@beta
+  503  npm install -g appium@beta
+  504  brew install carthage
+  505  appium --version

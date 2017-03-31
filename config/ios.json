@@ -3,10 +3,11 @@
     "builders": {
       "withCapabilities": [{
         "browserName": "",
-        "appium-version": "1.0",
+        "appium-version": "1.6.0-beta2",
         "platformName": "iOS",
-        "platformVersion": "9.2",
+        "platformVersion": "9.3",
         "deviceName": "iPhone 6",
+        "automationName":"XCUITest",
         "app": "env:IOS_APP_PATH"
       }],
       "usingServer": ["http://localhost:4723/wd/hub"]

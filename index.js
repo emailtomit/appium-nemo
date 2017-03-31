@@ -64,6 +64,7 @@ function waiter() {
 function populate() {
     var sum = 0;
     var populateField = function (name) {
+        console.log("Entering in to this method $$$$$$$$$$$");
         return driver.wait(function () {
             return driver.findElement(webdriver.By.name(name));
         }, 3000).then(function (el) {

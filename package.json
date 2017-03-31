@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nemo": "^2",
-    "nemo-appium": "~0.0.2",
-    "nemo-view": "^2",
-    "nemo-wd-bridge": "0.0.1"
+    "nemo": "^2.3.0",
+    "nemo-appium": "^0.0.8",
+    "nemo-view": "^2.1.1",
+    "nemo-wd-bridge": "^0.0.3"
   }
 }
